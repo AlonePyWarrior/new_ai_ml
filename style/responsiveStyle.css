@@ -1,0 +1,179 @@
+/* Extra Small Screens (Mobile) */
+@media only screen and (max-width: 576px) {
+
+  /* CSS rules specific for extra small screens */
+  :root {
+    font-size: 0.9rem;
+  }
+
+  .one-col-container {
+    width: 93%;
+  }
+
+  .scroll-wrapper {
+    padding: 0 5%;
+  }
+
+  .half-col {
+    padding: 1rem 3.5%;
+  }
+
+  .two-col-container {
+    flex-wrap: wrap;
+  }
+
+  .half-col.right,
+  .half-col.left {
+    width: 100%;
+
+  }
+
+  .half-col.left {
+    order: -1;
+  }
+
+  .quiz-answer {
+    max-height: 50vh;
+  }
+
+  .submit-answer button {
+    padding: 0.8rem 0.5rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+
+  .checkmark {
+    width: 20px;
+    height: 20px;
+  }
+
+  .q_option .checkmark::after {
+    width: 6px;
+    height: 6px;
+  }
+  .img-overlay{
+    display: none;
+  }
+  .qoute{
+    right: 2.5%;
+  width: 100%;
+  }
+  .video-sec-container{
+    right: 0;
+  width: 100%;
+  }
+  .finish-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .finish-part.content-to-top{
+    padding-top: 0;
+  }
+  .finish-con{
+    padding: 0;
+  }
+
+}
+
+/* Small Screens (Tablets) */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+
+  /* CSS rules specific for small screens */
+  :root {
+    font-size: 0.9rem;
+  }
+
+  .one-col-container {
+    width: 70%;
+    margin-bottom: 2rem;
+  }
+
+  .scroll-wrapper {
+    padding: 0 12%;
+  }
+
+  .half-col {
+    padding: 1rem 2%;
+  }
+
+  .text {
+    padding-bottom: 0.5rem;
+  }
+  .submit-answer button {
+    padding: 0.8rem 0.3rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+  .one-col-container.video{
+    width: 100%;
+  }
+  .qoute{
+    right: 45%;
+    width: 50%;
+  }
+  .finish-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .finish-part.content-to-top{
+    padding-top: 0;
+  }
+  .finish-con{
+    padding: 0;
+  }
+  
+}
+
+/* Medium Screens (Large Tablets) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+  /* CSS rules specific for medium screens */
+  .container {
+    width: 70%;
+    /* Adjust layout for moderate container width on large tablets */
+  }
+}
+
+/* Large Screens (Desktops) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+  /* CSS rules specific for large screens */
+  .container {
+    width: 60%;
+    /* Adjust layout for narrower container width on desktops */
+  }
+}
+
+/* Extra Large Screens (Large Desktops) */
+@media only screen and (min-width: 1441px) {
+  :root{
+    font-size: 1.8rem;
+  }
+  .one-col-container {
+    width: 60%;
+  }
+  .scroll-wrapper {
+    padding: 0 20%;
+  }
+  .question-text{
+    font-weight: 500;
+  }
+  .content-to-top{
+    padding-top: 4rem;
+  }
+  .shadow{
+    box-shadow: -8px 7px 0 0 var(--dark);
+  }
+  .explain {
+    min-height: 50vh;
+    padding: 2rem;
+    font-weight: 700;
+  }
+  .formula .label{
+    font-size: 0.9rem;
+  }
+  /* CSS rules specific for extra large screens */
+ 
+}

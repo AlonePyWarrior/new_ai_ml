@@ -1,0 +1,49 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Vazirmatn, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    direction: rtl;
+}
+body{
+    font-family: Vazirmatn, sans-serif;
+    text-align: right;
+    margin-bottom: 1rem;
+    background-color: var(--grey);
+}
+
+.intro_text_section_header{
+    font-size: 3.157rem;
+    font-weight: bold;
+    padding: 0 0 .8rem;
+}
+.two-col-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+    align-items: center; /* Vertically center the content */
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.two-col-grid img{
+    width:100%;
+}
+
+.grid-text-col{
+    padding: 0 5rem;
+}
+.grid-text-col .text{
+    font-size: 1rem;
+    line-height: 1.8;
+    padding-bottom:1rem;
+}
+.intro-btn{
+    margin-top: 2rem;
+}
